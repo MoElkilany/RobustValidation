@@ -7,11 +7,16 @@
 //
 
 import UIKit
+import RobustValidation
+import Pods_RobustValidation_Example
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        RobustRo.sayHello()
+       print(RobustRo.validEmail("mohamed@gmail.com")) 
+//        RobustValidation.sayHello()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
